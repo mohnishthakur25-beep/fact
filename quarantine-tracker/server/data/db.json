@@ -1,0 +1,4485 @@
+{
+  "totalRooms": 74,
+  "currentDate": "2026-11-12",
+  "nextPatientNum": 114,
+  "patients": [
+    {
+      "id": "P-001",
+      "name": "Aarav Nair",
+      "age": 35,
+      "roomNumber": null,
+      "admittedAt": "2026-11-09",
+      "status": "discharged",
+      "outcomeAt": "2026-11-12",
+      "readyForDischarge": false,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:16:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:16:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:16:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:16:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-002",
+      "name": "Priya Kulkarni",
+      "age": 48,
+      "roomNumber": 2,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": true,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:17:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:17:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:17:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:17:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:17:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-003",
+      "name": "Rohan Menon",
+      "age": 61,
+      "roomNumber": 3,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": true,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-07T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:18:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:18:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:18:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:18:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:18:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:18:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-004",
+      "name": "Ananya Sharma",
+      "age": 74,
+      "roomNumber": 4,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": true,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-06T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-07T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:19:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:19:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-005",
+      "name": "Vikram Mehta",
+      "age": 31,
+      "roomNumber": 5,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": true,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-05T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-06T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-07T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:20:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:20:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-006",
+      "name": "Neha Malhotra",
+      "age": 44,
+      "roomNumber": 6,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": true,
+      "treatmentNotes": "Afebrile 3+ days. Ready for admin discharge.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:21:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.8,
+          "tempTakenAt": "2026-11-11T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:21:00Z",
+          "doctorNotes": "Fever subsiding."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.6,
+          "tempTakenAt": "2026-11-12T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:21:00Z",
+          "doctorNotes": "3 consecutive fever-free days met. Cleared for discharge."
+        }
+      ]
+    },
+    {
+      "id": "P-007",
+      "name": "Kabir Chatterjee",
+      "age": 57,
+      "roomNumber": 7,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-008",
+      "name": "Meera Reddy",
+      "age": 70,
+      "roomNumber": 8,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-009",
+      "name": "Arjun Desai",
+      "age": 27,
+      "roomNumber": 9,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-010",
+      "name": "Sanya Pillai",
+      "age": 40,
+      "roomNumber": 10,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-011",
+      "name": "Dev Patel",
+      "age": 53,
+      "roomNumber": 11,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-05T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-012",
+      "name": "Ishita Joshi",
+      "age": 66,
+      "roomNumber": 12,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-013",
+      "name": "Karan Kapoor",
+      "age": 23,
+      "roomNumber": 13,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-014",
+      "name": "Divya Das",
+      "age": 36,
+      "roomNumber": 14,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-015",
+      "name": "Rahul Gupta",
+      "age": 49,
+      "roomNumber": 15,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-016",
+      "name": "Pooja Bhat",
+      "age": 62,
+      "roomNumber": 16,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-017",
+      "name": "Siddharth Agarwal",
+      "age": 75,
+      "roomNumber": 17,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-05T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-018",
+      "name": "Kavya Verma",
+      "age": 32,
+      "roomNumber": 18,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-019",
+      "name": "Aditya Singh",
+      "age": 45,
+      "roomNumber": 19,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-020",
+      "name": "Nisha Chopra",
+      "age": 58,
+      "roomNumber": 20,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-021",
+      "name": "Nikhil Bose",
+      "age": 71,
+      "roomNumber": 21,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-022",
+      "name": "Riya Iyer",
+      "age": 28,
+      "roomNumber": 22,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-023",
+      "name": "Varun Rao",
+      "age": 41,
+      "roomNumber": 23,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-05T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-024",
+      "name": "Tara Banerjee",
+      "age": 54,
+      "roomNumber": 24,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-025",
+      "name": "Manish Nair",
+      "age": 67,
+      "roomNumber": 25,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-026",
+      "name": "Shreya Kulkarni",
+      "age": 24,
+      "roomNumber": 26,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-027",
+      "name": "Gaurav Menon",
+      "age": 37,
+      "roomNumber": 27,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-028",
+      "name": "Aditi Sharma",
+      "age": 50,
+      "roomNumber": 28,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-029",
+      "name": "Deepak Mehta",
+      "age": 63,
+      "roomNumber": 29,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-05T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-06T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-07T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-08T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-09T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Continue antipyretics & fluids."
+        }
+      ]
+    },
+    {
+      "id": "P-030",
+      "name": "Sneha Malhotra",
+      "age": 76,
+      "roomNumber": 30,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37.1,
+          "tempTakenAt": "2026-11-10T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:30:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:00:00Z",
+          "doctorNotes": "Afebrile. Monitor."
+        }
+      ]
+    },
+    {
+      "id": "P-031",
+      "name": "Amit Chatterjee",
+      "age": 33,
+      "roomNumber": 31,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:41:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:41:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:41:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:41:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-032",
+      "name": "Swati Reddy",
+      "age": 46,
+      "roomNumber": 32,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T08:42:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:42:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:42:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:42:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:42:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-033",
+      "name": "Rajesh Desai",
+      "age": 59,
+      "roomNumber": 33,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-07T08:43:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T08:43:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:43:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:43:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:43:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:43:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-034",
+      "name": "Kiran Pillai",
+      "age": 72,
+      "roomNumber": 34,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-06T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-07T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:44:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:44:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-035",
+      "name": "Suresh Patel",
+      "age": 29,
+      "roomNumber": 35,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-05T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-06T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-07T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:45:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-036",
+      "name": "Lakshmi Joshi",
+      "age": 42,
+      "roomNumber": 36,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 37,
+          "tempTakenAt": "2026-11-10T08:46:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 36.9,
+          "tempTakenAt": "2026-11-11T08:46:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 36.7,
+          "tempTakenAt": "2026-11-12T08:46:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-037",
+      "name": "Vivek Kapoor",
+      "age": 55,
+      "roomNumber": 37,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-09T08:47:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-10T08:47:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-11T08:47:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-12T08:47:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-038",
+      "name": "Meenakshi Das",
+      "age": 68,
+      "roomNumber": 38,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-08T08:48:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-09T08:48:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-10T08:48:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-11T08:48:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-12T08:48:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-039",
+      "name": "Pranav Gupta",
+      "age": 25,
+      "roomNumber": 39,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-07T08:49:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-08T08:49:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-09T08:49:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-10T08:49:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-11T08:49:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:49:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-040",
+      "name": "Asha Bhat",
+      "age": 38,
+      "roomNumber": 40,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-06T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-07T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-08T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-09T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-10T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-11T08:50:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-12T08:50:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-041",
+      "name": "Aarav Agarwal",
+      "age": 51,
+      "roomNumber": 41,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-05T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-06T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-07T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-08T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-09T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-10T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-11T08:51:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-12T08:51:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-042",
+      "name": "Priya Verma",
+      "age": 64,
+      "roomNumber": 42,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-10T08:52:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-11T08:52:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:52:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-043",
+      "name": "Rohan Singh",
+      "age": 77,
+      "roomNumber": 43,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-09T08:53:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-10T08:53:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-11T08:53:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-12T08:53:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-044",
+      "name": "Ananya Chopra",
+      "age": 34,
+      "roomNumber": 44,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T08:54:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T08:54:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-10T08:54:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-11T08:54:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-12T08:54:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-045",
+      "name": "Vikram Bose",
+      "age": 47,
+      "roomNumber": 45,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-07T08:55:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-08T08:55:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T08:55:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-10T08:55:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-11T08:55:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:55:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-046",
+      "name": "Neha Iyer",
+      "age": 60,
+      "roomNumber": 46,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-06T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-07T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-08T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-09T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-10T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-11T08:56:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-12T08:56:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-047",
+      "name": "Kabir Rao",
+      "age": 73,
+      "roomNumber": 47,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-05T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-06T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-07T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-08T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-09T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-10T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-11T08:57:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-12T08:57:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-048",
+      "name": "Meera Banerjee",
+      "age": 30,
+      "roomNumber": 48,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-10T08:58:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-11T08:58:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:58:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-049",
+      "name": "Arjun Nair",
+      "age": 43,
+      "roomNumber": 49,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-09T08:59:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-10T08:59:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-11T08:59:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-12T08:59:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-050",
+      "name": "Sanya Kulkarni",
+      "age": 56,
+      "roomNumber": 50,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-08T08:10:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-09T08:10:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-10T08:10:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-11T08:10:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-12T08:10:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-051",
+      "name": "Dev Menon",
+      "age": 69,
+      "roomNumber": 51,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-07T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-08T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-09T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-10T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-11T08:11:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:11:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-052",
+      "name": "Ishita Sharma",
+      "age": 26,
+      "roomNumber": 52,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-06T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-07T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-08T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-09T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-10T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-11T08:12:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.1,
+          "tempTakenAt": "2026-11-12T08:12:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-053",
+      "name": "Karan Mehta",
+      "age": 39,
+      "roomNumber": 53,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-05T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-06T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-07T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-08T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-09T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-10T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.3,
+          "tempTakenAt": "2026-11-11T08:13:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.2,
+          "tempTakenAt": "2026-11-12T08:13:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-054",
+      "name": "Divya Malhotra",
+      "age": 52,
+      "roomNumber": 54,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-10T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-11T08:14:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.3,
+          "tempTakenAt": "2026-11-12T08:14:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-055",
+      "name": "Rahul Chatterjee",
+      "age": 65,
+      "roomNumber": 55,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-09T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-10T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-11T08:15:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39.4,
+          "tempTakenAt": "2026-11-12T08:15:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-056",
+      "name": "Pooja Reddy",
+      "age": 22,
+      "roomNumber": 56,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-08T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-09T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-10T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-11T08:16:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T11:30:00Z",
+          "doctorNotes": "Reviewed chart, continue monitoring."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-12T08:16:00Z",
+          "doctorVisited": false,
+          "doctorVisitedAt": null,
+          "doctorNotes": null
+        }
+      ]
+    },
+    {
+      "id": "P-057",
+      "name": "Siddharth Desai",
+      "age": 35,
+      "roomNumber": 57,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-058",
+      "name": "Kavya Pillai",
+      "age": 48,
+      "roomNumber": 58,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-059",
+      "name": "Aditya Patel",
+      "age": 61,
+      "roomNumber": 59,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-05T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-060",
+      "name": "Nisha Joshi",
+      "age": 74,
+      "roomNumber": 60,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-061",
+      "name": "Nikhil Kapoor",
+      "age": 31,
+      "roomNumber": 61,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-062",
+      "name": "Riya Das",
+      "age": 44,
+      "roomNumber": 62,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-063",
+      "name": "Varun Gupta",
+      "age": 57,
+      "roomNumber": 63,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-064",
+      "name": "Tara Bhat",
+      "age": 70,
+      "roomNumber": 64,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-065",
+      "name": "Manish Agarwal",
+      "age": 27,
+      "roomNumber": 65,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-05T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-066",
+      "name": "Shreya Verma",
+      "age": 40,
+      "roomNumber": 66,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-067",
+      "name": "Gaurav Singh",
+      "age": 53,
+      "roomNumber": 67,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.2,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-068",
+      "name": "Aditi Chopra",
+      "age": 66,
+      "roomNumber": 68,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-069",
+      "name": "Deepak Bose",
+      "age": 23,
+      "roomNumber": 69,
+      "admittedAt": "2026-11-07",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-07",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.4,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.3,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-070",
+      "name": "Sneha Iyer",
+      "age": 36,
+      "roomNumber": 70,
+      "admittedAt": "2026-11-06",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-06",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-071",
+      "name": "Amit Rao",
+      "age": 49,
+      "roomNumber": 71,
+      "admittedAt": "2026-11-05",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-05",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-05T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-05T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-06",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-06T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-06T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-07",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-07T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-07T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-08",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.6,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.5,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-072",
+      "name": "Swati Banerjee",
+      "age": 62,
+      "roomNumber": 72,
+      "admittedAt": "2026-11-10",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-10",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-073",
+      "name": "Rajesh Nair",
+      "age": 75,
+      "roomNumber": 73,
+      "admittedAt": "2026-11-09",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-09",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.8,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 38.7,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        }
+      ]
+    },
+    {
+      "id": "P-074",
+      "name": "Kiran Kulkarni",
+      "age": 32,
+      "roomNumber": 74,
+      "admittedAt": "2026-11-08",
+      "status": "active",
+      "outcomeAt": null,
+      "readyForDischarge": false,
+      "treatmentNotes": "Standard antiviral & hydration protocol.",
+      "logs": [
+        {
+          "date": "2026-11-08",
+          "temperature": 38.1,
+          "tempTakenAt": "2026-11-08T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-08T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-09",
+          "temperature": 38,
+          "tempTakenAt": "2026-11-09T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-09T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-10",
+          "temperature": 39,
+          "tempTakenAt": "2026-11-10T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-10T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-11",
+          "temperature": 38.9,
+          "tempTakenAt": "2026-11-11T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-11T10:15:00Z",
+          "doctorNotes": "Persistent fever, adjusted dosage."
+        },
+        {
+          "date": "2026-11-12",
+          "temperature": 37.4,
+          "tempTakenAt": "2026-11-12T07:45:00Z",
+          "doctorVisited": true,
+          "doctorVisitedAt": "2026-11-12T10:15:00Z",
+          "doctorNotes": "Improving, afebrile today."
+        }
+      ]
+    },
+    {
+      "id": "P-075",
+      "name": "Aarav Desai",
+      "age": 25,
+      "roomNumber": null,
+      "admittedAt": "2026-11-07",
+      "status": "discharged",
+      "outcomeAt": "2026-11-11",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-076",
+      "name": "Priya Pillai",
+      "age": 32,
+      "roomNumber": null,
+      "admittedAt": "2026-11-05",
+      "status": "discharged",
+      "outcomeAt": "2026-11-10",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-077",
+      "name": "Rohan Patel",
+      "age": 39,
+      "roomNumber": null,
+      "admittedAt": "2026-11-03",
+      "status": "discharged",
+      "outcomeAt": "2026-11-09",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-078",
+      "name": "Ananya Joshi",
+      "age": 46,
+      "roomNumber": null,
+      "admittedAt": "2026-11-01",
+      "status": "discharged",
+      "outcomeAt": "2026-11-08",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-079",
+      "name": "Vikram Kapoor",
+      "age": 53,
+      "roomNumber": null,
+      "admittedAt": "2026-10-30",
+      "status": "discharged",
+      "outcomeAt": "2026-11-07",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-080",
+      "name": "Neha Das",
+      "age": 60,
+      "roomNumber": null,
+      "admittedAt": "2026-11-02",
+      "status": "discharged",
+      "outcomeAt": "2026-11-06",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-081",
+      "name": "Kabir Gupta",
+      "age": 67,
+      "roomNumber": null,
+      "admittedAt": "2026-10-31",
+      "status": "discharged",
+      "outcomeAt": "2026-11-05",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-082",
+      "name": "Meera Bhat",
+      "age": 29,
+      "roomNumber": null,
+      "admittedAt": "2026-10-29",
+      "status": "discharged",
+      "outcomeAt": "2026-11-04",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-083",
+      "name": "Arjun Agarwal",
+      "age": 36,
+      "roomNumber": null,
+      "admittedAt": "2026-10-27",
+      "status": "discharged",
+      "outcomeAt": "2026-11-03",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-084",
+      "name": "Sanya Verma",
+      "age": 43,
+      "roomNumber": null,
+      "admittedAt": "2026-10-25",
+      "status": "discharged",
+      "outcomeAt": "2026-11-02",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-085",
+      "name": "Dev Singh",
+      "age": 50,
+      "roomNumber": null,
+      "admittedAt": "2026-10-28",
+      "status": "discharged",
+      "outcomeAt": "2026-11-01",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-086",
+      "name": "Ishita Chopra",
+      "age": 57,
+      "roomNumber": null,
+      "admittedAt": "2026-10-26",
+      "status": "discharged",
+      "outcomeAt": "2026-10-31",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-087",
+      "name": "Karan Bose",
+      "age": 64,
+      "roomNumber": null,
+      "admittedAt": "2026-10-24",
+      "status": "discharged",
+      "outcomeAt": "2026-10-30",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-088",
+      "name": "Divya Iyer",
+      "age": 26,
+      "roomNumber": null,
+      "admittedAt": "2026-10-22",
+      "status": "discharged",
+      "outcomeAt": "2026-10-29",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-089",
+      "name": "Rahul Rao",
+      "age": 33,
+      "roomNumber": null,
+      "admittedAt": "2026-11-03",
+      "status": "discharged",
+      "outcomeAt": "2026-11-11",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-090",
+      "name": "Pooja Banerjee",
+      "age": 40,
+      "roomNumber": null,
+      "admittedAt": "2026-11-06",
+      "status": "discharged",
+      "outcomeAt": "2026-11-10",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-091",
+      "name": "Siddharth Nair",
+      "age": 47,
+      "roomNumber": null,
+      "admittedAt": "2026-11-04",
+      "status": "discharged",
+      "outcomeAt": "2026-11-09",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-092",
+      "name": "Kavya Kulkarni",
+      "age": 54,
+      "roomNumber": null,
+      "admittedAt": "2026-11-02",
+      "status": "discharged",
+      "outcomeAt": "2026-11-08",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-093",
+      "name": "Aditya Menon",
+      "age": 61,
+      "roomNumber": null,
+      "admittedAt": "2026-10-31",
+      "status": "discharged",
+      "outcomeAt": "2026-11-07",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-094",
+      "name": "Nisha Sharma",
+      "age": 68,
+      "roomNumber": null,
+      "admittedAt": "2026-10-29",
+      "status": "discharged",
+      "outcomeAt": "2026-11-06",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-095",
+      "name": "Nikhil Mehta",
+      "age": 30,
+      "roomNumber": null,
+      "admittedAt": "2026-11-01",
+      "status": "discharged",
+      "outcomeAt": "2026-11-05",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-096",
+      "name": "Riya Malhotra",
+      "age": 37,
+      "roomNumber": null,
+      "admittedAt": "2026-10-30",
+      "status": "discharged",
+      "outcomeAt": "2026-11-04",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-097",
+      "name": "Varun Chatterjee",
+      "age": 44,
+      "roomNumber": null,
+      "admittedAt": "2026-10-28",
+      "status": "discharged",
+      "outcomeAt": "2026-11-03",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-098",
+      "name": "Tara Reddy",
+      "age": 51,
+      "roomNumber": null,
+      "admittedAt": "2026-10-26",
+      "status": "discharged",
+      "outcomeAt": "2026-11-02",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-099",
+      "name": "Manish Desai",
+      "age": 58,
+      "roomNumber": null,
+      "admittedAt": "2026-10-24",
+      "status": "discharged",
+      "outcomeAt": "2026-11-01",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-100",
+      "name": "Shreya Pillai",
+      "age": 65,
+      "roomNumber": null,
+      "admittedAt": "2026-10-27",
+      "status": "discharged",
+      "outcomeAt": "2026-10-31",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-101",
+      "name": "Gaurav Patel",
+      "age": 27,
+      "roomNumber": null,
+      "admittedAt": "2026-10-25",
+      "status": "discharged",
+      "outcomeAt": "2026-10-30",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-102",
+      "name": "Aditi Joshi",
+      "age": 34,
+      "roomNumber": null,
+      "admittedAt": "2026-10-23",
+      "status": "discharged",
+      "outcomeAt": "2026-10-29",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-103",
+      "name": "Deepak Kapoor",
+      "age": 41,
+      "roomNumber": null,
+      "admittedAt": "2026-11-04",
+      "status": "discharged",
+      "outcomeAt": "2026-11-11",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-104",
+      "name": "Sneha Das",
+      "age": 48,
+      "roomNumber": null,
+      "admittedAt": "2026-11-02",
+      "status": "discharged",
+      "outcomeAt": "2026-11-10",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-105",
+      "name": "Amit Gupta",
+      "age": 55,
+      "roomNumber": null,
+      "admittedAt": "2026-11-05",
+      "status": "discharged",
+      "outcomeAt": "2026-11-09",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-106",
+      "name": "Swati Bhat",
+      "age": 62,
+      "roomNumber": null,
+      "admittedAt": "2026-11-03",
+      "status": "discharged",
+      "outcomeAt": "2026-11-08",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-107",
+      "name": "Rajesh Agarwal",
+      "age": 69,
+      "roomNumber": null,
+      "admittedAt": "2026-11-01",
+      "status": "discharged",
+      "outcomeAt": "2026-11-07",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-108",
+      "name": "Kiran Verma",
+      "age": 31,
+      "roomNumber": null,
+      "admittedAt": "2026-10-30",
+      "status": "discharged",
+      "outcomeAt": "2026-11-06",
+      "readyForDischarge": false,
+      "treatmentNotes": "Completed 3-day fever-free protocol and discharged.",
+      "logs": []
+    },
+    {
+      "id": "P-109",
+      "name": "Suresh Singh",
+      "age": 78,
+      "roomNumber": null,
+      "admittedAt": "2026-10-28",
+      "status": "deceased",
+      "outcomeAt": "2026-11-05",
+      "readyForDischarge": false,
+      "treatmentNotes": "Severe respiratory complications despite ICU care.",
+      "logs": []
+    },
+    {
+      "id": "P-110",
+      "name": "Lakshmi Chopra",
+      "age": 79,
+      "roomNumber": null,
+      "admittedAt": "2026-10-31",
+      "status": "deceased",
+      "outcomeAt": "2026-11-04",
+      "readyForDischarge": false,
+      "treatmentNotes": "Severe respiratory complications despite ICU care.",
+      "logs": []
+    },
+    {
+      "id": "P-111",
+      "name": "Vivek Bose",
+      "age": 80,
+      "roomNumber": null,
+      "admittedAt": "2026-10-29",
+      "status": "deceased",
+      "outcomeAt": "2026-11-03",
+      "readyForDischarge": false,
+      "treatmentNotes": "Severe respiratory complications despite ICU care.",
+      "logs": []
+    },
+    {
+      "id": "P-112",
+      "name": "Meenakshi Iyer",
+      "age": 81,
+      "roomNumber": null,
+      "admittedAt": "2026-10-27",
+      "status": "deceased",
+      "outcomeAt": "2026-11-02",
+      "readyForDischarge": false,
+      "treatmentNotes": "Severe respiratory complications despite ICU care.",
+      "logs": []
+    },
+    {
+      "id": "P-113",
+      "name": "Pranav Rao",
+      "age": 82,
+      "roomNumber": null,
+      "admittedAt": "2026-10-25",
+      "status": "deceased",
+      "outcomeAt": "2026-11-01",
+      "readyForDischarge": false,
+      "treatmentNotes": "Severe respiratory complications despite ICU care.",
+      "logs": []
+    }
+  ]
+}
